@@ -1,0 +1,34 @@
+.testMo h2 {
+  text-align: center;
+  color: #03b;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.testMo {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.testMo h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.testMo img {
+  height: 100px;
+  width: 120px;
+  margin-left: 55px;
+  padding: 15px;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .testMo img {
+    height: 100px;
+    width: 120px;
+    margin-left: 55px;
+    margin: 0;
+    padding: 0;
+  }
+}

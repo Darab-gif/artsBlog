@@ -1,0 +1,42 @@
+.modal {
+  display: flex;
+  margin-top: 70px;
+  gap: 10px;
+  box-shadow: 0px 31px 17px -3px rgba(0, 0, 0, 0.1);
+  width: 93%;
+  margin-left: 29px;
+  padding: 13px;
+  border-radius: 3px;
+}
+
+.modal p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.modal a {
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+}
+
+.fontIcon {
+  text-align: center;
+  margin-left: 32px;
+}
+@media (max-width: 768px) {
+  .modal {
+    display: block;
+    margin-top: 120px;
+    box-shadow: 0px 31px 17px -3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+
+  .modal-pro,
+  .modal-art,
+  .modal-call {
+    margin: 60px 0px;
+  }
+}
