@@ -18,7 +18,7 @@ const Contact = () => {
           accusantium odit molestiae aliquid impedit voluptates ex alias rem
           maxime culpa.
         </p>
-        <a href="#">Terms And Conditions</a>
+        <a href="#terms">Terms And Conditions</a>
       </form>
     </div>
   );

@@ -15,7 +15,7 @@ const Modal = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto
           commodi sapiente velit voluptates quos amet magni, a quasi ratione.
         </p>
-        <a href="#">Read More</a>
+        <a href="#read">Read More</a>
       </div>
       <div className="modal-art">
         <FontAwesomeIcon className="fontIcon" icon={faCamera} size="lg" />
@@ -24,7 +24,7 @@ const Modal = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto
           commodi sapiente velit voluptates quos amet magni, a quasi ratione.
         </p>
-        <a href="#">Read More</a>
+        <a href="#read">Read More</a>
       </div>
       <div className="modal-call">
         <FontAwesomeIcon className="fontIcon" icon={faPhone} size="lg" />
@@ -33,7 +33,7 @@ const Modal = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto
           commodi sapiente velit voluptates quos amet magni, a quasi ratione.
         </p>
-        <a href="#">Read More</a>
+        <a href="#read">Read More</a>
       </div>
     </div>
   );

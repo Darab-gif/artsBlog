@@ -28,16 +28,16 @@ const Footer = ({ logo }) => {
         <h1>Location</h1>
         <ul>
           <li>
-            <a href="/london">London</a>
+            <a href="#london">London</a>
           </li>
           <li>
-            <a href="/">Abuja</a>
+            <a href="#abuja">Abuja</a>
           </li>
           <li>
-            <a href="/">Lagos</a>
+            <a href="#lagos">Lagos</a>
           </li>
           <li>
-            <a href="/">Ibadan</a>
+            <a href="#ibadan">Ibadan</a>
           </li>
         </ul>
       </div>
@@ -45,16 +45,16 @@ const Footer = ({ logo }) => {
         <h1>Contacts</h1>
         <ul>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Address</a>
+            <a href="#address">Address</a>
           </li>
           <li>
-            <a href="#">Founders</a>
+            <a href="#founder">Founders</a>
           </li>
           <li>
-            <a href="#">Gifts & Donations</a>
+            <a href="#gift">Gifts & Donations</a>
           </li>
         </ul>
       </div>
@@ -62,16 +62,16 @@ const Footer = ({ logo }) => {
         <h1>Legal</h1>
         <ul>
           <li>
-            <a href="#">Privacy</a>
+            <a href="#privacy">Privacy</a>
           </li>
           <li>
-            <a href="#">Terms of Use</a>
+            <a href="#terms">Terms of Use</a>
           </li>
           <li>
-            <a href="#">Reports</a>
+            <a href="#report">Reports</a>
           </li>
           <li>
-            <a href="#">Issues</a>
+            <a href="#issue">Issues</a>
           </li>
         </ul>
       </div>
