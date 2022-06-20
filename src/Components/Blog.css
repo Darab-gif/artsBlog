@@ -85,8 +85,8 @@
   }
   .blogMedia img {
     height: 25rem;
-    width: 18rem;
+    width: 85%;
     border-radius: 10px;
-    margin-left: 60px;
+    margin-left: 10px;
   }
 }
