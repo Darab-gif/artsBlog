@@ -14,7 +14,7 @@ function App() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div style={{ width: "100%" }}>
+    <div>
       <Header logo={logo.second} />
       <Modal />
       <BlogDisplay />

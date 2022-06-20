@@ -15,7 +15,7 @@ const blog = [
     images: "./images/art2.jpg",
     name: "Art 2",
     dataaos1: "fade-right",
-    datadelay: "300",
+    datadelay: "200",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laborum voluptas placeat doloribus illo sint temporibus maxime modi unde velitLorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum animi, tempore rem deserunt alias maxime odio cupiditate non voluptate eum facilis distinctio ipsum assumenda omnis, qui aliquam eos repellat molestias impedit! Libero obcaecati consequatur, est adipisci architecto voluptatum molestiae id, perspiciatis eveniet enim vero? Aliquid ullam aliquam itaque fugiat facilis?",
   },
@@ -33,7 +33,7 @@ const blog = [
     images: "./images/art4.jpg",
     name: "Art 4",
     dataaos1: "fade-right",
-    datadelay: "300",
+    datadelay: "200",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laborum voluptas placeat doloribus illo sint temporibus maxime modi unde velitLorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum animi, tempore rem deserunt alias maxime odio cupiditate non voluptate eum facilis distinctio ipsum assumenda omnis, qui aliquam eos repellat molestias impedit! Libero obcaecati consequatur, est adipisci architecto voluptatum molestiae id, perspiciatis eveniet enim vero? Aliquid ullam aliquam itaque fugiat facilis?",
   },
@@ -42,7 +42,7 @@ const blog = [
     images: "./images/art5.jpg",
     name: "Art 5",
     dataaos1: "fade-left",
-    datadelay: "300",
+    datadelay: "200",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laborum voluptas placeat doloribus illo sint temporibus maxime modi unde velitLorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum animi, tempore rem deserunt alias maxime odio cupiditate non voluptate eum facilis distinctio ipsum assumenda omnis, qui aliquam eos repellat molestias impedit! Libero obcaecati consequatur, est adipisci architecto voluptatum molestiae id, perspiciatis eveniet enim vero? Aliquid ullam aliquam itaque fugiat facilis?",
   },
