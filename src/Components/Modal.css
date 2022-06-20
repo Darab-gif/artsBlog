@@ -25,6 +25,9 @@
   margin-left: 32px;
 }
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .modal {
     display: block;
     margin-top: 120px;
