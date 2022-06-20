@@ -77,15 +77,16 @@
     margin-left: 5px;
   }
   .blogInfo {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .blogMedia p {
-    width: 94%;
+    width: 85%;
   }
   .blogMedia img {
-    height: 30rem;
-    width: 23rem;
+    height: 25rem;
+    width: 18rem;
     border-radius: 10px;
+    margin-left: 60px;
   }
 }
