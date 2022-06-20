@@ -27,7 +27,9 @@
   margin-left: 140px;
   margin-bottom: 50px;
 }
-
+.blogInfo {
+  margin-left: 60px;
+}
 .blogMedia img {
   height: 40rem;
   width: 30rem;
@@ -43,6 +45,8 @@
 .blogMedia p {
   color: #666;
   line-height: 26px;
+  text-align: justify;
+  word-wrap: break-word;
 }
 
 .blogMedia button {
@@ -63,11 +67,21 @@
 }
 
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .blogMedia {
     display: block;
     width: 100%;
     position: relative;
     margin-left: 5px;
+  }
+  .blogInfo {
+    margin-left: 10px;
+  }
+
+  .blogMedia p {
+    width: 94%;
   }
   .blogMedia img {
     height: 30rem;

@@ -12,7 +12,7 @@ const brand = [
 ];
 const Brand = () => {
   return (
-    <div className="testMo">
+    <div className="testMo" data-aos="zoom-in" data-aos-delay="200">
       <h2>COME WORK WITH US</h2>
       <h1>Big Companies That We Have Worked With Before</h1>
       {brand.map((index) => (

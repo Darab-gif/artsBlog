@@ -1,5 +1,5 @@
 .Header-body {
-  background-image: url("./beauty.jfif");
+  background-image: url("./bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
@@ -52,7 +52,7 @@
 }
 @media (max-width: 768px) {
   .Header-body {
-    background-image: url("./beauty.jfif");
+    background-image: url("./bg2.jpg");
     background-size: cover;
     background-position: center;
     background-origin: 120px;
