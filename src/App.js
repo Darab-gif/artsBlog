@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import Modal from "./Components/Modal";
 import Brand from "./Components/Testimonial";
 import logo from "./util";
+import "./App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -14,7 +15,7 @@ function App() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div>
+    <div className="body">
       <Header logo={logo.second} />
       <Modal />
       <BlogDisplay />
