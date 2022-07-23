@@ -21,8 +21,9 @@ function App() {
   const explore = useRef();
   const gallery = useRef();
   const contact = useRef();
+  const body = useRef();
   return (
-    <div className="body">
+    <div className="body" ref={body}>
       <Header
         logo={logo.second}
         about={about}
@@ -36,7 +37,7 @@ function App() {
       <BlogDisplay ref={gallery} />
       <Brand ref={explore} />
       <Contact ref={contact} />
-      <ScrollUp />
+      <ScrollUp bodyRef={body} />
       <Footer logo={logo.second} />
     </div>
   );

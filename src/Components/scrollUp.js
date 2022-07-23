@@ -26,13 +26,9 @@ const ScrollUp = ({ bodyRef }) => {
     };
   }, []);
   return (
-    <div className="scroll">
-      {scrollUp && (
-        <div className="scroll_up" onClick={() => scroll(bodyRef)}>
-          <FontAwesomeIcon icon={faArrowUp} size={30} />
-        </div>
-      )}
-    </div>
+    <section className="scroll_up" onClick={() => scroll(bodyRef)}>
+      <FontAwesomeIcon icon={faArrowUp} size={30} />
+    </section>
   );
 };
 
