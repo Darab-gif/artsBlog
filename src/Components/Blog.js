@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Blog.css";
 const blog = [
   {
@@ -74,9 +74,9 @@ const Blog = ({ images, name, detail, dataaos1, datadelay }) => {
   );
 };
 
-const BlogDisplay = () => {
+const BlogDisplay = forwardRef((props, ref) => {
   return (
-    <div className="blogBody">
+    <div className="blogBody" ref={ref}>
       <p className="info">
         You Can Always Find Put More About Us By Scrolling Down{" "}
         <span>EXPLORE OUR ARTS</span>
@@ -95,5 +95,5 @@ const BlogDisplay = () => {
       </div>
     </div>
   );
-};
+});
 export default BlogDisplay;

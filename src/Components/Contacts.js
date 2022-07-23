@@ -1,9 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Contact.css";
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
   return (
-    <div className="contact">
+    <div className="contact" ref={ref}>
       <div className="contact-head">
         <h1>
           Want Updates About Our Arts And Their Creators Around The World?
@@ -22,6 +22,6 @@ const Contact = () => {
       </form>
     </div>
   );
-};
+});
 
 export default Contact;

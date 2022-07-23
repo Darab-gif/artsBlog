@@ -26,10 +26,38 @@ const Navbar = ({ image, about, event, explore, gallery, contact }) => {
         >
           About
         </li>
-        <li>Events</li>
-        <li>Explore</li>
-        <li>Gallery</li>
-        <li>Contact</li>
+        <li
+          onClick={() => {
+            setNav(false);
+            scroll(event);
+          }}
+        >
+          Events
+        </li>
+        <li
+          onClick={() => {
+            setNav(false);
+            scroll(explore);
+          }}
+        >
+          Explore
+        </li>
+        <li
+          onClick={() => {
+            setNav(false);
+            scroll(gallery);
+          }}
+        >
+          Gallery
+        </li>
+        <li
+          onClick={() => {
+            setNav(false);
+            scroll(contact);
+          }}
+        >
+          Contact
+        </li>
       </ul>
       <div onClick={handleClick}>
         {nav ? (

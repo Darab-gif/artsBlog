@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Testmonial.css";
 const brand = [
   {
@@ -10,9 +10,9 @@ const brand = [
   { id: 4, image: "./images/airbnb.png" },
   { id: 5, image: "./images/opensea.png" },
 ];
-const Brand = () => {
+const Brand = forwardRef((props, ref) => {
   return (
-    <div className="testMo" data-aos="zoom-in" data-aos-delay="200">
+    <div className="testMo" data-aos="zoom-in" data-aos-delay="200" ref={ref}>
       <h2>COME WORK WITH US</h2>
       <h1>Big Companies That We Have Worked With Before</h1>
       {brand.map((index) => (
@@ -20,6 +20,6 @@ const Brand = () => {
       ))}
     </div>
   );
-};
+});
 
 export default Brand;

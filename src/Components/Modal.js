@@ -3,11 +3,12 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCamera, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faBuffer } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { forwardRef } from "react";
 
 library.add(faCamera, faPhone, faBuffer);
-const Modal = () => {
+const Modal = forwardRef((props, ref) => {
   return (
-    <div className="modal">
+    <div className="modal" ref={ref}>
       <div className="modal-pro">
         <FontAwesomeIcon className="fontIcon" icon={faBuffer} size="lg" />
         <h2>Professionals</h2>
@@ -37,6 +38,6 @@ const Modal = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Modal;

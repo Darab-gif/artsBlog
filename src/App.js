@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import BlogDisplay from "./Components/Blog";
 import Contact from "./Components/Contacts";
 import Footer from "./Components/Footer";
@@ -14,13 +14,27 @@ function App() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const about = useRef();
+  const event = useRef();
+  const explore = useRef();
+  const gallery = useRef();
+  const contact = useRef();
   return (
     <div className="body">
-      <Header logo={logo.second} />
-      <Modal />
-      <BlogDisplay />
-      <Brand />
-      <Contact />
+      <Header
+        logo={logo.second}
+        about={about}
+        event={event}
+        explore={explore}
+        gallery={gallery}
+        contact={contact}
+        ref={about}
+      />
+      <Modal ref={event} />
+      <BlogDisplay ref={gallery} />
+      <Brand ref={explore} />
+      <Contact ref={contact} />
       <Footer logo={logo.second} />
     </div>
   );
