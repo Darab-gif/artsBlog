@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: space-around;
   margin-right: 20px;
+  transition: ease-in 0.3s;
 }
 
 .link li {
@@ -45,30 +46,27 @@
   .link {
     position: fixed;
     height: 100%;
-    display: none;
-    width: 20rem;
+    display: block;
+    width: 10rem;
     background-color: #222;
-    top: 0;
-    padding-top: 70px;
+    top: -20px;
     left: 0;
+    padding-top: 50px;
     overflow-x: hidden;
-
     z-index: 90;
     text-align: center;
+    transition: ease-in 0.3s;
   }
 
+  .link.nav {
+    display: none;
+  }
   .link li {
-    margin: 35px 0px;
-    padding: 8px 8px 8px 32px;
+    margin: 35px 0px 35px -45px;
+    padding: 8px;
+    transition: ease-in 0.3s;
   }
 
-  .close {
-    display: block;
-    font-size: 52px;
-    position: absolute;
-    top: 0;
-    right: 15px;
-  }
   .bar {
     display: block;
     margin-right: 20px;
