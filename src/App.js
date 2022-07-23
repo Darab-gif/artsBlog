@@ -9,6 +9,7 @@ import logo from "./util";
 import "./App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ScrollUp from "./Components/scrollUp";
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
       <BlogDisplay ref={gallery} />
       <Brand ref={explore} />
       <Contact ref={contact} />
+      <ScrollUp />
       <Footer logo={logo.second} />
     </div>
   );
