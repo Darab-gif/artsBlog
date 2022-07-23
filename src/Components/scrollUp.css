@@ -1,0 +1,21 @@
+.scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  background-color: #b30;
+  color: #fff;
+  border-radius: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  cursor: pointer;
+}
+
+.scroll_up {
+  background-color: #b30;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+}
