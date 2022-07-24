@@ -12,7 +12,7 @@ const ScrollUp = ({ bodyRef }) => {
 
   useEffect(() => {
     const showButton = () => {
-      if (window.screenY > 200) {
+      if (window.screenY >= 100) {
         setScrollUp(true);
       } else {
         setScrollUp(false);
@@ -26,8 +26,15 @@ const ScrollUp = ({ bodyRef }) => {
     };
   }, []);
   return (
-    <section className="scroll_up" onClick={() => scroll(bodyRef)}>
-      <FontAwesomeIcon icon={faArrowUp} size={30} />
+    <section>
+      <section className="scroll_up" onClick={() => scroll(bodyRef)}>
+        <FontAwesomeIcon icon={faArrowUp} size={30} />
+      </section>
+      {scrollUp && (
+        <section className="scroll_up" onClick={() => scroll(bodyRef)}>
+          <FontAwesomeIcon icon={faArrowUp} size={30} />
+        </section>
+      )}
     </section>
   );
 };

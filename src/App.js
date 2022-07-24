@@ -37,8 +37,8 @@ function App() {
       <BlogDisplay ref={gallery} />
       <Brand ref={explore} />
       <Contact ref={contact} />
-      <ScrollUp bodyRef={body} />
       <Footer logo={logo.second} />
+      <ScrollUp bodyRef={body} />
     </div>
   );
 }
