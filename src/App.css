@@ -1,6 +1,10 @@
 .body {
   width: 100%;
 }
+body {
+  scroll-behavior: smooth;
+  position: relative;
+}
 
 @media (max-width: 768px) {
   .body {
